@@ -23,3 +23,25 @@ console.log(typeof myvar); // its type is undefined.
 console.table([typeof myArr,typeof myObj,typeof BigNum,typeof myFunc])
 // myFunc original datatype is "OBJECT FUNCTION"
 
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//STACK AND HEAP MEMORY
+
+let username = "funkin"
+anothername = username
+anothername = "king"
+console.log(username,anothername)
+// there are copies of the same object
+
+let user = {
+    name:"Tushar",
+    upi:"user@123ybl"
+}
+
+let userone = user
+userone.upi = "Google23@cnb"
+console.log(user,userone);
+// see because it is a reference type both will point to the same location thatswhy changes are reflecting in both 
+
+
