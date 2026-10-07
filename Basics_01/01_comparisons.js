@@ -21,6 +21,10 @@ console.log("2" === "2");
 console.log(2 == 2);
 console.log("2" == 2);
 
+console.log("02">1);
+// It implicit convert the 02 string to a number then compare and gives the result as TRUE.
+
+
 
 
 
