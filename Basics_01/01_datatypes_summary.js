@@ -32,7 +32,7 @@ let username = "funkin"
 anothername = username
 anothername = "king"
 console.log(username,anothername)
-// there are copies of the same object
+// there are copies of the same object.String is primitive yet it is a child class of OBJECT
 
 let user = {
     name:"Tushar",
@@ -42,6 +42,6 @@ let user = {
 let userone = user
 userone.upi = "Google23@cnb"
 console.log(user,userone);
-// see because it is a reference type both will point to the same location thatswhy changes are reflecting in both 
+// see because it is a reference type both will point to the same location thatswhy changes are reflecting in both. 
 
 
