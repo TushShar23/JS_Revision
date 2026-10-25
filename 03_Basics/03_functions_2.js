@@ -28,9 +28,10 @@ console.log(DisplayObjInfo({
 
 // Passing ARRAYS
 
-function HandleArrays(anyArray){
+function returnSecondVal(anyArray){
     return anyArray[1]
 }
 
 const newArr = [100,400,900,1000,78]
-console.log(HandleArrays(newArr))
+console.log(returnSecondVal(newArr))
+console.log(returnSecondVal([12,99,79,35]))
